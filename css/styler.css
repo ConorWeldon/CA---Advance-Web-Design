@@ -1,0 +1,349 @@
+ @font-face { font-family: UberMoveBold; src: url('fonts/UberMoveBold.otf'); } 
+ @font-face { font-family: UberMoveMedium; src: url('fonts/UberMoveMedium.otf'); } 
+ @font-face { font-family: UberMoveTextBold; src: url('fonts/UberMoveTextBold.otf'); } 
+ @font-face { font-family: UberMoveTextLight; src: url('fonts/UberMoveTextLight.otf'); } 
+ @font-face { font-family: UberMoveTextMedium; src: url('fonts/UberMoveTextMedium.otf'); } 
+ @font-face { font-family: UberMoveTextRegular; src: url('fonts/UberMoveTextRegular.otf'); } 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.white-bg {
+    background: #ffffff;
+}
+
+.header {
+    position: relative;
+    width: 990px;
+    height: 609px;
+    margin-left: 75px;
+}
+
+.display-block {
+    display: inline-block;
+}
+
+.imageh {
+    position: absolute;
+    z-index: -1;
+}
+
+.soul-header {
+    font-family: UberMoveTextBold, sans-serif;
+    font-size: 36px;
+    padding: 15px 0px 0px 35px;
+    margin: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.nav-text {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    z-index: 0;
+}
+
+.big-header {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 90px;
+    padding: 161px 0px 0px 0px;
+    margin-left: 20px;
+}
+
+.gallery {
+    padding: 25px 0px 0px 494px;
+}
+
+.explore {
+    padding: 25px 0px 0px 579px;
+}
+
+.merch {
+    padding: 25px 0px 0px 745px;
+}
+
+.forum {
+    padding: 25px 0px 0px 871px;
+}
+
+.news {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 36px;
+    margin: 75px 0px 0px 15px;
+    padding-top: 130px;
+    position: absolute;
+    z-index: 0;
+}
+
+.news-sub {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 18px;
+    padding-top: 145px;
+    position: absolute;
+    z-index: 0;
+}
+
+.all {
+    margin: 75px 0px 0px 205px;
+}
+
+.media {
+    margin: 75px 0px 0px 274px;
+}
+
+.festivals {
+    margin: 75px 0px 0px 374px;
+}
+
+.orginal {
+    margin: 75px 0px 0px 578px;
+}
+
+.line {
+    width: 153px;
+    height: 1px;
+    margin: 280px 0px 0px 374px;
+    border-top: 1px solid black;
+}
+
+.image-drake {
+    margin: 50px 0px 0px 0px;
+}
+
+.date {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+.title {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.sub-head {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #898989
+}
+
+.read-more {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.box {
+    margin-top: 50px;
+    /*margin-bottom: 105px;*/
+}
+
+.boxF {
+    margin-bottom: 70px;
+}
+
+.dot {
+    display: flex;
+    flex-direction: row;
+}
+
+.dotP {
+    margin-top: 57px;
+    margin-left: 15px;
+}
+
+.section2 {
+    margin-top: 105px;
+}
+
+.coachellaT {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 18px;
+    writing-mode: vertical-rl;
+      margin-left: 15px;
+    /*margin-top: 105px;*/
+    /*transform: rotate(90deg);
+    transform-origin: top left;
+    padding: 0px 0px 125px 125px;*/
+}
+
+.image-coachella {
+    /*margin-left: 15px;*/
+    /*margin-left: 154px;*/
+}
+
+.black-bg {
+    margin-top: 335px;
+    background-color: #161616;
+    width: 1140;
+    height: 965px;
+}
+
+.title-coachella {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 42px;
+    padding-top: 355px;
+    padding-left: 108px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+.subtitle-coachella {
+    font-family: UberMoveTextLight, sans-serif;
+    font-size: 18px;
+    color: #d6d6d6;
+    margin: 0px;
+    padding-left: 108px;
+}
+
+.subtitle-padding {
+    padding-top: 60px;
+}
+
+.curvedLine {
+    padding-left: 348px;
+    padding-top: 13px;
+}
+
+.title-fourBox {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 348px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.subtitle-fourBox {
+    font-family: UberMoveTextMedium, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.fourBox {
+    padding-top: 30px;
+}
+
+.padding-fourBox {
+    margin-left: 348px;
+}
+
+.white-bg-section3 {
+    width: 100%;
+    height: 670px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.white-bg-section4 {
+    width: 100%;
+    height: 610px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.image-section3 {
+    margin-left: 70px;
+    width: 424px;
+    height: 600px;
+}
+
+.title-Ubox {
+    font-family: UberMoveBold, sans-serif;
+    font-size: 82px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.subtitle-Ubox {
+    font-family: UberMoveMedium, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.name {
+    font-family: UberMoveTextMedium, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 275px;
+}
+
+.box1, .box2, .box3 {
+    width: 370px;
+    height: 100%;
+    border-right: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+}
+
+.style {
+    font-family: UberMoveTextMedium, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    padding-top: 280px;
+    margin-bottom: 0px
+}
+
+.dot-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 165px;
+    margin-top: 11px;
+}
+
+.section4-lines {
+    background: repeating-linear-gradient(to right,
+        #f3f3f3,
+        #f3f3f3 1px,
+        #ffffff 1px,
+        #ffffff 151px);
+    width: 100%;
+    height: 720px;
+    /*border-right: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;*/
+}
+
+.image-section4 {
+    /*position: absolute;
+    z-index: 1;*/
+}
+
+.name-large {
+    font-family: UberMoveTextMedium, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    padding-top: 100px;
+    padding-left: 154px;
+}
+
+.title-section4 {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 108px;
+    color: #000000;
+    padding-left: 145px;
+    margin-bottom: 0px;
+}
+
+.titlePart2-section4 {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 108px;
+    color: #276ef1;
+    padding-left: 145px;
+    margin-top: -10px;
+    width: 600px;
+}
