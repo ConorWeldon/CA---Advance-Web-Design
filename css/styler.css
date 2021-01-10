@@ -28,7 +28,7 @@ body {
     top: 0;
     bottom: 0;
     position: absolute;
-    width: 20.833%; /*The reason for this is that 1920 / 100 = 19.2. 800 / 19.2 = 41.666 / 2 = 20.833*/
+    width: 20.93%; /*The reason for this is that 1920 / 100 = 19.2. 800 / 19.2 = 41.666 / 2 = 20.833, then you take the margin into account*/
 }
 
 .bg-right {
@@ -37,7 +37,7 @@ body {
     top: 0;
     bottom: 0;
     position: absolute;
-    width: 20.833%; /*The reason for this is that 1920 / 100 = 19.2. 800 / 19.2 = 41.666 / 2 = 20.833*/
+    width: 20.93%; /*The reason for this is that 1920 / 100 = 19.2. 800 / 19.2 = 41.666 / 2 = 20.833, then you take the margin into account*/
 }
 
 .flex {
