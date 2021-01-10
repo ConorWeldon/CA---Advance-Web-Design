@@ -11,6 +11,34 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100%;
+}
+
+.background-fullwidth {
+    position: relative;
+    width: 100%;
+    height: 5520px;;
+}
+
+.bg-left {
+    background-color: #1a1a1a;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 400px;
+}
+
+.bg-right {
+    background-color: #1a1a1a;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 400px;
+}
+
 .flex {
     display: flex;
 }
@@ -21,7 +49,7 @@
 
 .header {
     position: relative;
-    width: 990px;
+    width: 970px;
     height: 609px;
     margin-left: 75px;
 }
@@ -33,6 +61,7 @@
 .imageh {
     position: absolute;
     z-index: -1;
+    margin-left: -15px;
 }
 
 .soul-header {
@@ -322,6 +351,7 @@
     position: relative;
     /*border-right: 1px solid #c5c5c5;
     border-left: 1px solid #c5c5c5;*/
+    border-bottom: 1px solid #c5c5c5;
 }
 
 .image-section4 {
@@ -411,4 +441,118 @@
     position: absolute;
     top: 362px;
     left: 106px;
+}
+
+.black-bg-section5 {
+    background-color: #161616;
+    width: 100%;
+    height: 333px;
+    /*border-top: 1px solid #c5c5c5;*/
+    position: relative;
+}
+
+.footer-about {
+    font-family: UberMoveTextBold, sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.footer-about-sub {
+    font-family: UberMoveTextBold, sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-left: 75px;
+}
+
+.footer-about-info {
+    font-family: UberMoveTextRegular, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    width: 205px;
+    margin-top: -5px;
+    padding-left: 75px;
+}
+
+.position {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0px;
+}
+
+.position-margin-two {
+    left: 200px;
+}
+
+.position-margin-three {
+    left: 395px;
+}
+
+.footer-box {
+    width: 330px;
+    height: 100px;
+    background-color: #272727;
+    top: 100px;
+    right: 35px;
+}
+
+.footer-box-text-sub {
+    font-family: UberMoveTextMedium, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.footer-box-text {
+    font-family: UberMoveTextBold, sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.footer-arrow-box {
+    position: absolute;
+    top: 36px;
+    right: 30px;
+}
+
+.Soul {
+    font-family: UberMoveTextBold, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: white;
 }
